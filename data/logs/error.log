@@ -1,0 +1,144 @@
+2026-04-30 23:13:03,783 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 179, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-04-30 23:13:51,014 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 179, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-04-30 23:13:51,736 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 179, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-04-30 23:13:51,962 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 179, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-04-30 23:13:53,790 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 179, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-04-30 23:14:10,051 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 179, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-04-30 23:14:54,149 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:16:34,225 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:16:35,248 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:16:35,402 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:16:36,044 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:16:48,231 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:16:53,115 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:16:54,213 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:16:55,134 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:17:00,844 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:20:47,274 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:20:47,284 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: 'MedicalOrientationAgent' object has no attribute 'generate_llm_analysis'
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 226, in evaluate_with_agent
+    llm_analysis = agent.generate_llm_analysis(
+AttributeError: 'MedicalOrientationAgent' object has no attribute 'generate_llm_analysis'
+
+2026-04-30 23:26:37,121 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'fièvre', 'tremblements'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:26:37,121 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: 'MedicalOrientationAgent' object has no attribute 'generate_llm_analysis'
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 226, in evaluate_with_agent
+    llm_analysis = agent.generate_llm_analysis(
+AttributeError: 'MedicalOrientationAgent' object has no attribute 'generate_llm_analysis'
+
+2026-04-30 23:29:40,989 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'fièvre', 'tremblements', 'toux', 'mal de gorge'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-04-30 23:29:40,993 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: 'MedicalOrientationAgent' object has no attribute 'generate_llm_analysis'
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 231, in evaluate_with_agent
+    llm_analysis = agent.generate_llm_analysis(
+AttributeError: 'MedicalOrientationAgent' object has no attribute 'generate_llm_analysis'
+
+2026-04-30 23:38:01,848 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'fièvre', 'tremblements', 'toux', 'mal de gorge'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-09 23:33:42,281 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-09 23:44:03,776 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-09 23:49:06,842 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-12 22:45:51,670 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-12 22:52:17,310 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-12 23:01:00,416 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-12 23:05:04,750 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-12 23:17:18,067 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-12 23:19:36,258 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-12 23:22:28,621 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['fièvre', 'mal de gorge'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-13 01:33:19,249 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['douleur abdominale'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-13 01:33:30,071 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['douleur abdominale'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-13 01:33:30,936 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['douleur abdominale'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-13 01:33:31,558 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['douleur abdominale'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-13 01:33:46,162 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['douleur abdominale'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-13 01:33:56,546 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['douleur abdominale'] | Urgency: BANAL | Specialist: Médecin généraliste ou urgences si déshydratation
+2026-05-13 10:52:38,893 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 10:53:03,671 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 10:53:12,674 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 10:53:35,613 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 10:53:48,755 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'douleur abdominale'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 10:54:22,214 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'douleur abdominale'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 10:54:45,369 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'douleur abdominale', 'rhume'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 10:55:00,320 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'douleur abdominale', 'rhume'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 10:55:36,412 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'douleur abdominale', 'rhume'] | Urgency: BANAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 11:01:19,526 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 212, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-05-13 11:02:10,665 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: NORMAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 11:02:12,273 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: NORMAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 11:02:16,382 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête'] | Urgency: NORMAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 11:03:10,304 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'fièvre'] | Urgency: URGENT | Specialist: Neurologue ou médecin généraliste
+2026-05-13 11:03:14,440 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'fièvre'] | Urgency: URGENT | Specialist: Neurologue ou médecin généraliste
+2026-05-13 11:16:30,836 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 225, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-05-13 11:18:03,540 - MedicalAssistant - ERROR - Unexpected error in agent_evaluation: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\error_handler.py", line 147, in safe_execute
+    return func(*args)
+  File "C:\Users\maizj\OneDrive\Bureau\ing s2\IA\prj ia\src\app.py", line 225, in evaluate_with_agent
+    raise NoSymptomsDetected("Aucun symptôme détecté dans le texte")
+TypeError: NoSymptomsDetected.__init__() takes 1 positional argument but 2 were given
+
+2026-05-13 11:43:48,543 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'mal de gorge'] | Urgency: NORMAL | Specialist: Neurologue ou médecin généraliste
+2026-05-13 11:44:06,466 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'mal de gorge', 'nausée'] | Urgency: URGENT | Specialist: Neurologue ou médecin généraliste
+2026-05-13 12:02:29,222 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'mal de gorge', 'nausée'] | Urgency: URGENT | Specialist: Neurologue ou médecin généraliste
+2026-05-13 23:33:45,403 - MedicalAssistant - INFO - Medical Evaluation | Symptoms: ['mal de tête', 'fièvre', 'douleur poitrine'] | Urgency: EXTRÊME URGENCE | Specialist: Neurologue ou médecin généraliste

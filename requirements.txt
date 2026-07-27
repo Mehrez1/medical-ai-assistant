@@ -1,0 +1,9 @@
+langchain
+langchain-groq
+langchain-community
+python-dotenv
+chromadb
+pydantic
+requests
+streamlit
+replicate

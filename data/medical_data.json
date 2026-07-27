@@ -1,0 +1,441 @@
+{
+  "conditions": [
+    {
+      "id": "migraine",
+      "name": "Migraine",
+      "description": "Céphalée intense unilatérale, souvent pulsatile, pouvant s'accompagner de symptômes neurologiques",
+      "symptoms": [
+        "mal de tête intense",
+        "douleur crâne pulsatile",
+        "sensibilité à la lumière (photophobie)",
+        "sensibilité au bruit (phonophobie)",
+        "nausée",
+        "vomissement",
+        "aura visuelle",
+        "douleur derrière l'œil"
+      ],
+      "urgency": "NORMAL",
+      "specialist": "Neurologue ou médecin généraliste",
+      "questions": [
+        "Depuis combien de temps avez-vous ce mal de tête?",
+        "Est-ce que la lumière vous fait mal?",
+        "Avez-vous des nausées?",
+        "La douleur est-elle d'un seul côté?",
+        "Y a-t-il un motif de récurrence?"
+      ]
+    },
+    {
+      "id": "rhume",
+      "name": "Infection virale - Rhume/Grippe",
+      "description": "Infection virale des voies respiratoires supérieures, très contagieuse",
+      "symptoms": [
+        "toux sèche",
+        "nez qui coule",
+        "congestion nasale",
+        "éternuement",
+        "gorge irritée",
+        "légère fièvre",
+        "fatigue légère",
+        "mal de gorge"
+      ],
+      "urgency": "BANAL",
+      "specialist": "Médecin généraliste si persiste >7 jours",
+      "questions": [
+        "Avez-vous de la fièvre? Si oui, quelle température?",
+        "Depuis quand avez-vous ces symptômes?",
+        "Avez-vous des courbatures?",
+        "Êtes-vous très fatigué?"
+      ]
+    },
+    {
+      "id": "douleur_thoracique",
+      "name": "Douleur thoracique / Alerte cardiaque",
+      "description": "Douleur ou gêne dans la poitrine. DANGER: Peut être cardiaque. Requiert évaluation urgente",
+      "symptoms": [
+        "douleur poitrine",
+        "sensation de serrement poitrine",
+        "essoufflement",
+        "transpiration excessive",
+        "douleur bras gauche",
+        "douleur mâchoire",
+        "sensation d'écrasement",
+        "vertiges",
+        "palpitations"
+      ],
+      "urgency": "EXTRÊME URGENCE",
+      "specialist": "Urgences / Cardiologue",
+      "questions": [
+        "La douleur est-elle constante ou intermittente?",
+        "Rayonne-t-elle vers le bras gauche ou la mâchoire?",
+        "Avez-vous des difficultés respiratoires?",
+        "Avez-vous des antécédents cardiaques?",
+        "Avez-vous des sueurs froides?"
+      ]
+    },
+    {
+      "id": "gastro",
+      "name": "Gastro-entérite aiguë",
+      "description": "Inflammation de l'estomac et intestins, souvent virale, très contagieuse",
+      "symptoms": [
+        "diarrhée",
+        "vomissement",
+        "douleur abdominale",
+        "crampes abdominales",
+        "nausée",
+        "fièvre modérée",
+        "malaise général",
+        "perte d'appétit"
+      ],
+      "urgency": "URGENT",
+      "specialist": "Médecin généraliste (urgences si déshydratation sévère)",
+      "questions": [
+        "Avez-vous de la diarrhée ou des vomissements? Depuis combien de temps?",
+        "Avez-vous de la fièvre?",
+        "Avez-vous du mal à boire ou garder les liquides?",
+        "Y a-t-il du sang dans les selles ou les vomissements?",
+        "Avez-vous été exposé à quelqu'un de malade?"
+      ]
+    },
+    {
+      "id": "fievre",
+      "name": "Fièvre / Hyperthermie",
+      "description": "Élévation de la température corporelle au-dessus de 37,5°C, signe d'infection",
+      "symptoms": [
+        "température élevée",
+        "frissons",
+        "malaise général",
+        "fatigue",
+        "mal de tête",
+        "douleurs musculaires",
+        "transpiration"
+      ],
+      "urgency": "URGENT",
+      "specialist": "Médecin généraliste",
+      "questions": [
+        "Quelle est votre température exacte?",
+        "Depuis combien de temps avez-vous de la fièvre?",
+        "Avez-vous d'autres symptômes (toux, mal de gorge, diarrhée)?",
+        "Avez-vous pris du paracétamol ou ibuprofène?",
+        "Avez-vous été en contact avec quelqu'un de malade?"
+      ]
+    },
+    {
+      "id": "cystite",
+      "name": "Infection urinaire / Cystite",
+      "description": "Infection des voies urinaires, plus fréquente chez la femme, généralement d'origine bactérienne",
+      "symptoms": [
+        "douleur miction",
+        "brûlure urinaire",
+        "envies fréquentes uriner",
+        "urine trouble",
+        "urine foncée",
+        "douleur pubienne",
+        "douleur bas-ventre",
+        "légère fièvre"
+      ],
+      "urgency": "NORMAL",
+      "specialist": "Médecin généraliste ou urologue",
+      "questions": [
+        "Avez-vous des douleurs en urinant?",
+        "Allez-vous aux toilettes plus souvent que d'habitude?",
+        "Votre urine est-elle trouble ou foncée?",
+        "Avez-vous du sang dans les urines?",
+        "Avez-vous de la fièvre?"
+      ]
+    },
+    {
+      "id": "allergie",
+      "name": "Allergie / Réaction allergique",
+      "description": "Réaction immune exagérée face à une substance (pollen, arachides, etc.)",
+      "symptoms": [
+        "éruption cutanée",
+        "prurit",
+        "gonflements",
+        "nez qui coule",
+        "larmoiement",
+        "éternuements",
+        "démangeaisons gorge",
+        "urticaire"
+      ],
+      "urgency": "NORMAL",
+      "specialist": "Médecin généraliste ou allergologue",
+      "questions": [
+        "Avez-vous identifié l'allergène?",
+        "Quand avez-vous commencé à avoir ces symptômes?",
+        "Avez-vous des démangeaisons ou gonflements?",
+        "Avez-vous de la difficulté à respirer?",
+        "Avez-vous des antécédents d'allergie?"
+      ]
+    },
+    {
+      "id": "arthrite",
+      "name": "Arthrite / Douleur articulaire",
+      "description": "Inflammation d'une articulation, peut être rhumatoïde, d'usure ou post-traumatique",
+      "symptoms": [
+        "douleur articulation",
+        "gonflement articulation",
+        "rougeur articulation",
+        "chaleur articulation",
+        "limitation mobilité",
+        "raideur matinale",
+        "craquements"
+      ],
+      "urgency": "NORMAL",
+      "specialist": "Rhumatologue ou médecin généraliste",
+      "questions": [
+        "Depuis combien de temps avez-vous cette douleur?",
+        "L'articulation est-elle gonflée ou chaude?",
+        "Avez-vous eu un traumatisme récent?",
+        "La douleur est-elle symétrique?",
+        "Avez-vous une raideur matinale?"
+      ]
+    },
+    {
+      "id": "diabete",
+      "name": "Diabète / Hyperglycémie",
+      "description": "Perturbation métabolisme du glucose, peut être type 1, type 2 ou gestationnel",
+      "symptoms": [
+        "soif excessive",
+        "envies fréquentes uriner",
+        "fatigue persistante",
+        "vision trouble",
+        "perte poids inexpliquée",
+        "plaies lentes à cicatriser",
+        "engourdissement pieds"
+      ],
+      "urgency": "URGENT",
+      "specialist": "Médecin généraliste ou endocrinologue",
+      "questions": [
+        "Avez-vous une soif excessive?",
+        "Allez-vous aux toilettes très souvent?",
+        "Avez-vous perdu du poids récemment?",
+        "Avez-vous des antécédents familiaux de diabète?",
+        "Y a-t-il du sucre dans les urines?"
+      ]
+    },
+    {
+      "id": "hypertension",
+      "name": "Hypertension artérielle",
+      "description": "Augmentation persistante de la pression artérielle (>140/90 mmHg), souvent silencieuse",
+      "symptoms": [
+        "maux de tête",
+        "douleur occipitale",
+        "vertiges",
+        "fatigue",
+        "vision trouble",
+        "douleur thoracique",
+        "essoufflement"
+      ],
+      "urgency": "URGENT",
+      "specialist": "Cardiologue ou médecin généraliste",
+      "questions": [
+        "Avez-vous des maux de tête réguliers?",
+        "Avez-vous mesuré votre tension? Quelle valeur?",
+        "Avez-vous des antécédents d'hypertension?",
+        "Prenez-vous des médicaments pour la tension?",
+        "Avez-vous du stress ou des problèmes de sommeil?"
+      ]
+    },
+    {
+      "id": "asthme",
+      "name": "Asthme / Crise d'asthme",
+      "description": "Maladie inflammatoire chronique des voies respiratoires avec bronchospasme",
+      "symptoms": [
+        "essoufflement",
+        "sibilances",
+        "oppression thoracique",
+        "toux sèche",
+        "difficulté respirer",
+        "respiration rapide",
+        "impossibilité parler"
+      ],
+      "urgency": "URGENT",
+      "specialist": "Pneumologue ou médecin généraliste",
+      "questions": [
+        "Avez-vous du mal à respirer?",
+        "Entendez-vous un sifflement en respirant?",
+        "Avez-vous une toux persistante?",
+        "Avez-vous des facteurs déclencheurs connus?",
+        "Avez-vous un bronchodilatateur?"
+      ]
+    },
+    {
+      "id": "depression_anxiete",
+      "name": "Dépression / Anxiété",
+      "description": "Troubles mentaux affectant l'humeur et le bien-être. Requiert prise en charge psychologique",
+      "symptoms": [
+        "tristesse persistante",
+        "perte intérêt activités",
+        "fatigue extrême",
+        "insomnie",
+        "perte appétit",
+        "anxiété excessive",
+        "panique",
+        "tremblements"
+      ],
+      "urgency": "URGENT",
+      "specialist": "Psychiatre ou psychologue",
+      "questions": [
+        "Depuis combien de temps vous sentez-vous déprimé?",
+        "Avez-vous des pensées suicidaires?",
+        "Avez-vous du mal à dormir?",
+        "Avez-vous perdu l'intérêt pour les activités?",
+        "Y a-t-il un événement déclencheur?"
+      ]
+    },
+    {
+      "id": "mal_dos",
+      "name": "Mal de dos / Lombalgies",
+      "description": "Douleur de la région lombaire, généralement musculaire ou liée au disque",
+      "symptoms": [
+        "douleur bas du dos",
+        "raideur matinale",
+        "difficulté plier",
+        "douleur sciatique",
+        "engourdissement jambe",
+        "faiblesse jambe",
+        "douleur irradiante"
+      ],
+      "urgency": "NORMAL",
+      "specialist": "Kinésithérapeute, ostéopathe ou médecin généraliste",
+      "questions": [
+        "Depuis combien de temps avez-vous mal?",
+        "Y a-t-il eu un événement déclencheur?",
+        "La douleur irradie-t-elle dans la jambe?",
+        "Avez-vous une faiblesse musculaire?",
+        "Avez-vous une activité professionnelle risquée?"
+      ]
+    },
+    {
+      "id": "angine",
+      "name": "Angine / Pharyngite streptococcique",
+      "description": "Infection bactérienne ou virale de la gorge, très douloureuse",
+      "symptoms": [
+        "gorge très douloureuse",
+        "difficulté avaler",
+        "fièvre élevée",
+        "mal de tête",
+        "amygdales gonflées",
+        "amygdales rouges",
+        "plaques blanches",
+        "ganglions gonflés"
+      ],
+      "urgency": "NORMAL",
+      "specialist": "Médecin généraliste",
+      "questions": [
+        "Avez-vous une très mauvaise gorge?",
+        "Avez-vous de la fièvre?",
+        "Voyez-vous des plaques blanches sur les amygdales?",
+        "Avez-vous des ganglions gonflés?",
+        "Avez-vous été en contact avec quelqu'un malade?"
+      ]
+    },
+    {
+      "id": "tendinite",
+      "name": "Tendinite / Inflammation tendineuse",
+      "description": "Inflammation d'un tendon, souvent liée à une activité répétitive ou un traumatisme",
+      "symptoms": [
+        "douleur tendon",
+        "gonflement",
+        "difficulté mouvement",
+        "douleur à l'effort",
+        "chaleur zone",
+        "craquement"
+      ],
+      "urgency": "NORMAL",
+      "specialist": "Kinésithérapeute ou médecin généraliste",
+      "questions": [
+        "Où exactement est la douleur?",
+        "Est-ce lié à une activité particulière?",
+        "Depuis combien de temps?",
+        "Y a-t-il eu un traumatisme?",
+        "Comment évoluent les symptômes?"
+      ]
+    },
+    {
+      "id": "otite",
+      "name": "Otite / Inflammation auriculaire",
+      "description": "Infection ou inflammation de l'oreille, très douloureuse surtout chez l'enfant",
+      "symptoms": [
+        "douleur oreille intense",
+        "fièvre",
+        "diminution audition",
+        "écoulement oreille",
+        "démangeaisons oreille",
+        "sensation plénitude auriculaire"
+      ],
+      "urgency": "URGENT",
+      "specialist": "ORL ou médecin généraliste",
+      "questions": [
+        "Avez-vous une douleur oreille intense?",
+        "Y a-t-il un écoulement?",
+        "Avez-vous de la fièvre?",
+        "Avez-vous récemment pris un bain ou douche?",
+        "Avez-vous des antécédents de problèmes auditifs?"
+      ]
+    },
+    {
+      "id": "eczema",
+      "name": "Eczéma / Dermatite",
+      "description": "Inflammation de la peau causant démangeaisons, rougeurs et sècheresse",
+      "symptoms": [
+        "prurit intense",
+        "rougeur peau",
+        "sécheresse peau",
+        "zones irritées",
+        "plaques eczémateuses",
+        "craquèlements peau"
+      ],
+      "urgency": "BANAL",
+      "specialist": "Dermatologue ou médecin généraliste",
+      "questions": [
+        "Avez-vous des démangeaisons intenses?",
+        "Depuis combien de temps?",
+        "Y a-t-il une zone spécifique?",
+        "Avez-vous un facteur déclencheur connu?",
+        "Avez-vous utilisé un nouveau produit récemment?"
+      ]
+    },
+    {
+      "id": "constipation",
+      "name": "Constipation",
+      "description": "Difficulté ou rareté des selles, peut être aigué ou chronique",
+      "symptoms": [
+        "selles rares",
+        "selles dures",
+        "douleur défécation",
+        "sensation incomplet",
+        "douleur abdominale",
+        "ballonnements",
+        "malaise abdominal"
+      ],
+      "urgency": "BANAL",
+      "specialist": "Médecin généraliste ou gastroentérologue",
+      "questions": [
+        "Depuis combien de temps?",
+        "Combien de fois par semaine avez-vous des selles?",
+        "Les selles sont-elles dures?",
+        "Avez-vous changé d'alimentation ou de routine?",
+        "Prenez-vous des médicaments?"
+      ]
+    }
+  ],
+  "professional_types": {
+    "Médecin généraliste": "Première consultation, diagnostic initial, traitement général, suivi chronique",
+    "Neurologue": "Maladies du système nerveux: migraine, épilepsie, sclérose, Parkinson",
+    "Cardiologue": "Maladies du cœur: infarctus, arythmie, hypertension, insuffisance cardiaque",
+    "Gastroentérologue": "Maladies digestives: gastrite, ulcère, Crohn, reflux, diarrhée chronique",
+    "Urologue": "Maladies urinaires et génitales: infection urinaire, prostate, reins",
+    "Rhumatologue": "Maladies articulaires et osseuses: arthrite, arthrose, lupus, polyarthrite",
+    "Endocrinologue": "Maladies métaboliques: diabète, thyroïde, obésité, ménopause",
+    "Urgentiste": "Situations d'urgence et de crise: infarctus, AVC, trauma, dyspnée sévère",
+    "Pneumologue": "Maladies respiratoires: asthme, BPCO, pneumonie, tuberculose",
+    "Dermatologue": "Maladies de la peau: eczéma, psoriasis, acné, mélanome",
+    "ORL": "Maladies ORL: otite, sinusite, angine, surdité",
+    "Psychiatre": "Maladies mentales: dépression, anxiété, psychose, addiction",
+    "Gynécologue": "Santé reproductive: menstruation, contraception, ménopause, cancer gynéco",
+    "Pédiatre": "Maladies de l'enfant: infections virales, vaccins, développement",
+    "Kinésithérapeute": "Réhabilitation physique: mal de dos, post-opératoire, sportifs",
+    "Pharmacien": "Conseils sur médicaments, interactions, posologies"
+  }
+}
